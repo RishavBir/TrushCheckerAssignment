@@ -25,17 +25,17 @@ ReactDOM.render(
                 </select>
 
                 <select>
-                    <option>2001</option>
-                    <option>2002</option>
-                    <option>2003</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
                 </select><br />
 
                
                 Return Date:<select>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
+                    <option>5</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>15</option>
                 </select>
 
                 <select>
@@ -45,17 +45,15 @@ ReactDOM.render(
                 </select>
 
                 <select>
-                    <option>2001</option>
-                    <option>2002</option>
-                    <option>2003</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
                 </select><br />
 
                 Departure Time:<input type = "time"/><br/>
                 Arrival Time:<input type = "time"/><br/>
-                Price: <input type = "text"/><br/>
-                
+                Price: <input type = "text"/><br/>   
                 <input type="Button" value="Search" />
-
 
 
             </form>
