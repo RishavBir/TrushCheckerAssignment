@@ -1,15 +1,18 @@
 import React from "react";
+import "./App.css"
 
 
 const App =()=>{
     return(
         <>
+        <div>
         <body>
-            <h1>Flight Search Engine</h1>
+            <h1 className="heading_style">Flight Search Engine</h1>
             <form>
-                Name:<input type="text" size="40" /><br />
-                Origin City:<input type="text" size="40" /><br />
-                Destination City:<input type="text" size="40" /><br />  
+            < div className="form_border">
+                Name:<input type="text" size="40" /><br /><br/>
+                Origin City:<input type="text" size="40" /><br /><br />
+                Destination City:<input type="text" size="40" /><br /><br />
                 Departure Date:<select>
                     <option>1</option>
                     <option>2</option>
@@ -27,7 +30,7 @@ const App =()=>{
                     <option>2022</option>
                     <option>2023</option>
                     <option>2024</option>
-                </select><br />
+                </select><br /><br />
 
                
                 Return Date:<select>
@@ -47,16 +50,16 @@ const App =()=>{
                     <option>2022</option>
                     <option>2023</option>
                     <option>2024</option>
-                </select><br />
+                </select><br /><br />
 
-                Departure Time:<input type = "time"/><br/>
-                Arrival Time:<input type = "time"/><br/>
-                Price: <input type = "text"/><br/>   
+                Departure Time:<input type = "time"/><br/><br />
+                Arrival Time:<input type = "time"/><br/><br />
+                Price: <input type = "text"/><br/>   <br />
                 <input type="Button" value="Search" />
-
-
-            </form>
+                </div>
+            </form>   
         </body>
+        </div>
         </>
     )
 }
