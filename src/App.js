@@ -10,6 +10,7 @@ const App =()=>{
             <h1 className="heading_style">Flight Search Engine</h1>
             <form>
             < div className="form_border"><br/>
+            <div className="inside_formBorder">
                 Name:<input type="text" size="40" /><br /><br/>
                 Origin City:<input type="text" size="40" /><br /><br />
                 Destination City:<input type="text" size="40" /><br /><br />
@@ -57,6 +58,7 @@ const App =()=>{
                 Arrival Time:<input type = "time"/><br/><br/>
                 Price: <input type = "text"/><br/><br />
                 <input type="Button" value="Search" /><br/><br/>
+                </div>
                 <div className="style2">
                 <div className="inside_style">
                     <h5>Pune >> Delhi >> Pune &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Departure Time:<input type = "time"/></h5>    
