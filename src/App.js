@@ -10,7 +10,7 @@ const App = () => {
                     <h1>Flight Search Engine</h1>
                     </div>
                     <form>
-                        <div className="formStyle">
+                        <div className="formStyle"><br></br>
                                 Name:<input type="text" size="40" /><br /><br />
                                 Origin City:<input type="text" size="40" /><br /><br />
                                 Destination City:<input type="text" size="40" /><br /><br />
@@ -61,7 +61,7 @@ const App = () => {
                             </div>
                          </form>
                                     <div className="inside_style">
-                                        <h5>Pune >> Delhi >> Pune &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Departure Time:<input type="time" /></h5>
+                                        <h5>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Pune >> Delhi >> Pune &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Departure Time:<input type="time"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Return Time:<input type="time" /></h5>
                                     </div> 
                                     
                 </body>
