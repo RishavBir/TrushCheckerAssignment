@@ -20,6 +20,7 @@
   margin-top: -32px;
   font-weight: 600;
   color:black;
+  background-color: bisque;
 }
 
   .inside_style{
@@ -34,8 +35,27 @@
   }
 
 
+.inside_style2{
+  border-style: solid;
+  border-bottom-width:solid;  
+  text-align:left;
+  font-size: 1.5rem;
+  margin-left:345px;
+  margin-right:-1px;
+  margin-top:-5px;
+  background-color: aquamarine; 
+}
 
-
+.inside_style3{
+  border-style: solid;
+  border-bottom-width:solid;
+  margin-left:600px;
+  margin-top: -119px;
+  margin-bottom: 100px;
+  margin-right: 45px;
+  background-color:rgb(141, 141, 223);
+  text-align:center;
+}
   
 
 
