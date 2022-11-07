@@ -21,6 +21,7 @@
   font-weight: 600;
   color:black;
   background-color: bisque;
+  margin-bottom: 10px;
 }
 
   .inside_style{
@@ -28,10 +29,11 @@
     border-bottom-width:solid;  
     text-align:left;
     font-size: 1.5rem;
-    margin-left:345px;
+    margin-left:330px;
     margin-right:-1px;
-    margin-top:-425px;
+    margin-top:-435px;
     background-color: aquamarine;
+    margin-bottom: 20px;
   }
 
 
@@ -39,24 +41,53 @@
   border-style: solid;
   border-bottom-width:solid;  
   text-align:left;
-  font-size: 1.5rem;
-  margin-left:345px;
+  margin-left:330px;
   margin-right:-1px;
-  margin-top:-5px;
+  margin-top:-40px;
   background-color: aquamarine; 
+  font-size: 20px;
+  font-weight: 400;
+  color:black;
+  margin-bottom: 10px;
+  
 }
 
 .inside_style3{
   border-style: solid;
   border-bottom-width:solid;
-  margin-left:600px;
-  margin-top: -119px;
-  margin-bottom: 100px;
-  margin-right: 45px;
+  margin-left:650px;
+  margin-top: -120px;
+  margin-bottom: 40px;
+  margin-right: 70px;
   background-color:rgb(141, 141, 223);
   text-align:center;
 }
-  
+
+
+.inside_style4{
+  border-style: solid;
+  border-bottom-width:solid;  
+  text-align:left;
+  margin-left:330px;
+  margin-right:-1px;
+  margin-top:-20px;
+  background-color: aquamarine; 
+  font-size: 20px;
+  font-weight: 400;
+  color:black;
+  margin-bottom: 3px;
+}
+
+.inside_style5{
+  border-style: solid;
+  border-bottom-width:solid;
+  margin-left:650px;
+  margin-top: -119px;
+  margin-bottom: 40px;
+  margin-right: 70px;
+  background-color:rgb(141, 141, 223);
+  text-align:center;
+}
 
 
 
